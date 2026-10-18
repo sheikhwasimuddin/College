@@ -1,49 +1,55 @@
-# College
+<div align="center">
 
-A collection of my **college academic work, practicals, laboratory assignments, programming exercises, and course-related resources** completed during my B.Tech in Computer Science and Engineering with an IoT specialization.
+# 🎓 College
+
+**A subject-wise collection of my academic work, lab practicals, assignments, and course resources**
+
+
+
+![Repo Size](https://img.shields.io/github/repo-size/sheikhwasimuddin/College)
+
+</div>
+
+---
+
+## 📖 About
+
+This repository holds the work I completed during my engineering degree, organized by subject. It acts as a single place to find lab experiments, programming exercises, assignments, and revision material, and it may help other students looking for reference implementations.
 
 ## 📚 Repository Contents
 
-| Folder                    | Description                                            |
-| ------------------------- | ------------------------------------------------------ |
-| `AIML`                    | Artificial Intelligence & Machine Learning practicals  |
-| `blockchain technology`   | Blockchain Technology practicals                       |
-| `CC`                      | Competitive Computing practicals and assignments       |
-| `CRT`                     | Campus Recruitment Training and coding practice        |
-| `ds`                      | Data Science / related practical work                  |
-| `gis`                     | Geographic Information Systems practicals              |
-| `IIOT`                    | Introduction to Internet of Things practicals          |
-| `JavaFSD`                 | Java Full Stack Development practicals                 |
-| `kotlin`                  | Kotlin programming practicals                          |
-| `MWIOT`                   | Mobile & Wireless IoT practicals                       |
-| `OOPS`                    | Object-Oriented Programming practicals                 |
-| `os`                      | Operating Systems practicals                           |
-| `VSDA R`                  | Visual Statistics & Data Analysis using R              |
-| `Wireless Sensor Network` | Wireless Sensor Network practicals and MATLAB programs |
+| Folder | Subject / Description |
+| ------ | --------------------- |
+| [`AIML`](./AIML) | Artificial Intelligence & Machine Learning practicals |
+| [`blockchain technology`](./blockchain%20technology) | Blockchain Technology practicals |
+| [`CC`](./CC) | Cloud Computing practicals and assignments |
+| [`CRT/Technical`](./CRT/Technical) | Campus Recruitment Training: technical and coding practice |
+| [`ds`](./ds) | Data Science / Data Structures practical work |
+| [`Embedded System`](./Embedded%20System) | Embedded Systems practicals |
+| [`gis`](./gis) | Geographic Information Systems practicals |
+| [`hsc`](./hsc) | HSC coursework |
+| [`IIOT`](./IIOT) | Industrial Internet of Things practicals |
+| [`JavaFSD`](./JavaFSD) | Java Full Stack Development practicals |
+| [`kotlin`](./kotlin) | Kotlin programming practicals |
+| [`MWIOT`](./MWIOT) | Mobile & Wireless IoT practicals |
+| [`OOPS`](./OOPS) | Object-Oriented Programming practicals |
+| [`os`](./os) | Operating Systems practicals |
+| [`VSDA R`](./VSDA%20R) | Visual Statistics & Data Analysis using R |
+| [`Wireless Sensor Network`](./Wireless%20Sensor%20Network) | Wireless Sensor Network practicals and MATLAB programs |
 
 ## 🛠️ Technologies & Tools
 
-* **Programming:** Java, Python, Kotlin, R, MATLAB
-* **AI/ML:** Artificial Intelligence, Machine Learning
-* **IoT:** IIoT, MWIOT, Wireless Sensor Networks
-* **Cloud:** Cloud Computing
-* **Data:** Data Science, GIS, R
-* **Other:** Blockchain, Operating Systems, OOPS, Java Full Stack Development
+| Category | Stack |
+| -------- | ----- |
+| **Languages** | Java, Python, Kotlin, R, MATLAB, C/C++ |
+| **AI / ML** | Machine Learning, Artificial Intelligence |
+| **IoT & Embedded** | IIoT, Mobile & Wireless IoT, Wireless Sensor Networks, Embedded Systems |
+| **Cloud** | Cloud Computing |
+| **Data** | Data Science, GIS, R |
+| **Web / Full Stack** | Java Full Stack Development |
+| **Other** | Blockchain, Operating Systems, OOP |
 
-## 🎯 Purpose
-
-This repository is maintained as an organized collection of my academic work throughout my engineering degree. It serves as a reference for:
-
-* College laboratory practicals
-* Subject assignments
-* Programming exercises
-* Experiment implementations
-* Revision and examination preparation
-* Academic project documentation
-
-## 📂 Organization
-
-The repository follows a subject-wise structure:
+## 📂 Project Structure
 
 ```text
 College/
@@ -51,8 +57,11 @@ College/
 ├── blockchain technology/
 ├── CC/
 ├── CRT/
+│   └── Technical/
 ├── ds/
+├── Embedded System/
 ├── gis/
+├── hsc/
 ├── IIOT/
 ├── JavaFSD/
 ├── kotlin/
@@ -60,20 +69,57 @@ College/
 ├── OOPS/
 ├── os/
 ├── VSDA R/
-└── Wireless Sensor Network/
+├── Wireless Sensor Network/
+└── README.md
 ```
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/sheikhwasimuddin/College.git
+cd College
+```
+
+Then open the folder for the subject you are interested in. Each subject uses its own tools, for example:
+
+| Subject type | How to run |
+| ------------ | ---------- |
+| Java (`OOPS`, `JavaFSD`) | `javac File.java && java File` |
+| Python (`AIML`, `ds`) | `python file.py` or open the `.ipynb` in Jupyter |
+| Kotlin (`kotlin`) | Run with IntelliJ IDEA / Android Studio, or `kotlinc` |
+| R (`VSDA R`) | Open in RStudio, or `Rscript file.R` |
+| MATLAB (`Wireless Sensor Network`) | Open `.m` files in MATLAB or GNU Octave |
+
+> Requirements vary by folder. Check the files inside each subject directory for any extra dependencies.
+
+## 🎯 Purpose
+
+- Keep college lab practicals and assignments organized in one place
+- Serve as a quick reference for revision and exam preparation
+- Document experiment implementations across subjects
+- Help peers who want examples to learn from
+
+## ⚠️ Disclaimer
+
+This work is shared for **learning and reference only**. Please don't submit it as your own coursework. Understand the concepts, then write your own solutions.
+
+## 🤝 Contributing
+
+Found a bug or a possible improvement? Feel free to open an [issue](https://github.com/sheikhwasimuddin/College/issues) or submit a pull request.
 
 ## 👨‍💻 Author
 
 **Sheikh Wasimuddin**
+B.Tech Computer Science & Engineering · IoT Major | Cloud Computing Minor
 
-B.Tech Computer Science & Engineering
-IoT Major | Cloud Computing Minor
-
-### 🔗 Connect
-
-* GitHub: [@sheikhwasimuddin](https://github.com/sheikhwasimuddin)
+[![GitHub](https://img.shields.io/badge/GitHub-sheikhwasimuddin-181717?logo=github)](https://github.com/sheikhwasimuddin)
 
 ---
 
-⭐ If this repository helps you with your academic preparation, feel free to star the repository.
+<div align="center">
+
+⭐ If this repository helps your studies, consider giving it a star!
+
+</div>
